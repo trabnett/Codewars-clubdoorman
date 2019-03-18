@@ -5,9 +5,7 @@ function passTheDoorMan (word){
         if (letter === arr[index + 1]){
             key = letter
         }
-        console.log(key, letter, arr[index + 1])
     })
-    console.log((key.charCodeAt(0) - 97) * 3)
+    return (key.charCodeAt(0) - 97) * 3
 }
 
-passTheDoorMan("avesxitww")
