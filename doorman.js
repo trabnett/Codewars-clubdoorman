@@ -6,6 +6,6 @@ function passTheDoorMan (word){
             key = letter
         }
     })
-    return (key.charCodeAt(0) - 97) * 3
+    return (key.charCodeAt(0) - 96) * 3
 }
 
